@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px    }
+
+.cajas{
+    width: 530px ;
+    height: 400px;
+    box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.648);
+    border-radius: 10px;
+    overflow: hidden;}
+
+.primero{
+    background-color: #fff; 
+    padding: 30px;
+    font-size: 11px;
+    height: 180px;}
+
+.primero h1{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1rem;}
+
+.primero h2{
+    color: hsl(71, 73%, 54%);}
+
+.primero p{
+    color: hsl(218, 22%, 67%);
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 23px;}
+
+.segundo{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    width: 100%;
+    padding: 35px;}
+
+.subtitulo{
+    font-size: 13.5px;
+    margin-bottom: 15px;}
+
+ .precio{
+    font-size: 25px;}
+
+ .mes{
+    font-size: 12px;
+    color: hsl(204, 43%, 93%);
+    padding:  9px;
+    padding-bottom: 5px;}
+
+ .segundo p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 30px;}
+
+button{
+    color: white;
+    font-size: 12px;
+    background-color: hsl(71, 73%, 54%);
+    width: 200px;
+    padding: 12px;
+    border-radius: 4px ;
+    box-shadow: 2px 3px 10px rgba(129, 128, 128, 0.541);
+    border: none; }
+
+.display{
+    display: flex;
+    align-content: center;
+    width: 100%;}
+
+.tercero{
+    background-color: hsla(179, 61%, 44%, 0.785);
+    color: white;
+    width: 100%;
+    padding: 35px;}
+
+.tercero p{
+    font-size: 11px;
+    line-height: 18px;
+    color: hsl(204, 43%, 93%);
+    letter-spacing: 0.3px;}
